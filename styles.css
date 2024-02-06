@@ -1,0 +1,57 @@
+html {
+    font-size: 62.5%;
+}
+* {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+   
+}
+
+main {
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9f5ec;
+    height: 100vh;
+    
+}
+
+.juego {
+    width: 85em;
+    display: flex;
+    height: 85em;
+    background-color: #b91a1a;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 4em; /* Ajusta el tamaño del texto según sea necesario */
+    /* Otros estilos si es necesario */
+    margin-bottom: 15px;
+    color: #fff;
+}
+h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+label {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+
